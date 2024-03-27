@@ -2,7 +2,7 @@
 
 ## Help Guide
 
-*Note: this is a duplicate of README.md*
+*Note: this is a duplicate of README.md*  
 This is a template file for a player help guide. This is intended to be edited to fill in info about your module release.
 
 |Release|Notes|
