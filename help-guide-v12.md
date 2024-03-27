@@ -201,7 +201,54 @@ Enjoy, any questions mail me at [jzedward](mailto:viqhzset@duck.com) or visit [s
 If you like and use this template module, please reference my efforts, but if you don't want to, that's fine too.  
 However, if you pass it off as your own work for profit, I will have to emulate Liam Neeson and find you ;-)  
 
+## APPENDIX - vmod file contents
+
+The really quick and dirty way to setup your module is to open the ```vmod``` file with [7Zip] and drop in pre-prepared files with the filenames below.
+
+### Key Files to Update
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```help-guide.txt```|root|Guide file on ```Help\Guide``` menu|update or replace based on this file|
+|```help-readme.txt```|root|Readme file on ```Help\Readme``` menu|update or replace with vmod info|
+|```chart-crt.jpg```|images|Combat Results Table|replace with your own (750px wide)|
+|```chart-sop.jpg```|images|Sequence of Play|replace with your own (750px wide)|
+|```chart-tec.jpg```|images|Terrain Effects Chart|replace with your own (750px wide)|
+|```chart-uic.jpg```|images|Unit Identification Chart|replace with your own (750px wide)|
+|```chart-vp.jpg```|images|Victory Points/Conditions|replace with your own (750px wide)|
+|```help-cover.jpg```|images|Cover *splash* image|replace with your own (400px wide)|
+|```map.jpg```|images|Map|replace with your own @ 150ppi|
+|```map-turntrack.jpg```|images|Game Turn Track|replace with your own @ 150ppi|
+|```chart-html.html```|root|(optional) HTML file in chart tab *HTML Sample*|update with content of your choice or remove|
+
+### Icons
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```icon-xxx.png```|images|xxx icon||
+
+### Counters & Symbols
+
+Files below relate to the counters, and are not essential (unless you are using the template counters)
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```counter-black-75x75x5.png```|images|Black 5px bevelled counter|75x75px @ 150ppi|
+|```counter-blue-bng-75x75x5.png```|images|Union *Blue & Gray* style 5px bevelled counter|75x75px @ 150ppi|
+|```counter-red-75x75x5.png```|images|Red 5px bevelled counter|75x75px @ 150ppi|
+|```counter-red-75x75x5.png```|images|Red *big NATO* Infantry 5px bevelled counter|75x75px @ 150ppi|
+|```counter-white-72x72x5.png```|images|White 5px bevelled counter|72x72px @ 150ppi|
+
+### Other Files
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```buildfile.xml```|root|vmod 'master' file|do not edit unless you know what you are doing|
+
+
+
 ## Release Notes
+
 v1.2
 updated to markdown, v379
 
