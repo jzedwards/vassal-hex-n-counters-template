@@ -37,18 +37,15 @@ Vassal will ask if you want to open a log file.
 The Turn record may also open as a separate window.
 Read the rules and the sample scenario walkthrough.
 
-## Sides
-
-Sides are not enabled for counter control/visibility, but there are two sides, Chinese and Soviet
-
 ## Toolbar
 
 The first 2 buttons are for playing a logfile (back and forward) and are greyed out. Visit the vassal site for more info on logs and saves
 The 2 arrows are for network game connections
 
-### FLAG
+### FLAG (Sides)
 
-The white flag is to retire, and is also used to switch sides in games with sides active. The game has ```2``` sides ```SIDE1``` and ```SIDE2```
+The white flag is to retire, and is also used to switch sides in games with sides active.  
+Sides are not enabled for counter control/visibility, but there are two sides, ```Side1``` and ```Side2```
 
 ### TRACK
 
