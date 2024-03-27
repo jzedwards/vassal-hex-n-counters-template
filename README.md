@@ -90,7 +90,7 @@ Take a screen shot
 The map icon (gray in the template - set it by dropping  into the module images folder in a zip tool. This opens (and closes) an overview map. The zoom buttons are self explanatory. if you need help here, give up now and play checkers.  
 The monkey icon is hiding ;-) Use this to show/hide units on the map.  
 
-*[Designers Note]* The overview map icon is a 25px high 'icon-map.png'. The map is, unsurprisingly, map.jpg. The map has a generic 1/2" hex grid defined. This will need editing if you add you own map (and the module will not be much use without your own map)
+**[Designers Note] The overview map icon is a 25px high 'icon-map.png'. The map is, unsurprisingly, map.jpg. The map has a generic 1/2" hex grid defined. This will need editing if you add you own map (and the module will not be much use without your own map)**
 
 ### MOVEMENT
 
