@@ -5,6 +5,8 @@
 *Note: this is a duplicate of README.md*  
 This is a template file for a player help guide. This is intended to be edited to fill in info about your module release.
 
+![pic](./jzhex-n-counters-template-v12-379.png)
+
 |Release|Notes|
 |---|---|
 |Module|hex-n-counters-template-v12-379.vmod|
