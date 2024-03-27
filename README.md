@@ -1,6 +1,8 @@
 # Hex n Counters Template v12
 
 ## Help Guide
+
+*Note: this is a duplicate of README.md*  
 This is a template file for a player help guide. This is intended to be edited to fill in info about your module release.
 
 ![pic](./jzhex-n-counters-template-v12-379.png)
@@ -90,7 +92,7 @@ Take a screen shot
 The map icon (gray in the template - set it by dropping  into the module images folder in a zip tool. This opens (and closes) an overview map. The zoom buttons are self explanatory. if you need help here, give up now and play checkers.  
 The monkey icon is hiding ;-) Use this to show/hide units on the map.  
 
-**[Designers Note] The overview map icon is a 25px high 'icon-map.png'. The map is, unsurprisingly, map.jpg. The map has a generic 1/2" hex grid defined. This will need editing if you add you own map (and the module will not be much use without your own map)**
+*[Designers Note]* The overview map icon is a 25px high 'icon-map.png'. The map is, unsurprisingly, map.jpg. The map has a generic 1/2" hex grid defined. This will need editing if you add you own map (and the module will not be much use without your own map)
 
 ### MOVEMENT
 
@@ -199,7 +201,71 @@ Enjoy, any questions mail me at [jzedward](mailto:viqhzset@duck.com) or visit [s
 If you like and use this template module, please reference my efforts, but if you don't want to, that's fine too.  
 However, if you pass it off as your own work for profit, I will have to emulate Liam Neeson and find you ;-)  
 
+## APPENDIX - vmod file contents
+
+The really quick and dirty way to setup your module is to open the ```vmod``` file with [7Zip] and drop in pre-prepared files with the filenames below.
+
+### Key Files to Update
+
+The files below should be prepared and replaced with your game files, typically sized to the spec below.
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```help-guide.txt```|root|Guide file on ```Help\Guide``` menu|update or replace based on this file|
+|```help-readme.txt```|root|Readme file on ```Help\Readme``` menu|update or replace with vmod info|
+|```chart-crt.jpg```|images|Combat Results Table|replace with your own (750px wide)|
+|```chart-sop.jpg```|images|Sequence of Play|replace with your own (750px wide)|
+|```chart-tec.jpg```|images|Terrain Effects Chart|replace with your own (750px wide)|
+|```chart-uic.jpg```|images|Unit Identification Chart|replace with your own (750px wide)|
+|```chart-vp.jpg```|images|Victory Points/Conditions|replace with your own (750px wide)|
+|```help-cover.jpg```|images|Cover *splash* image|replace with your own (400px wide)|
+|```map.jpg```|images|Map|replace with your own @ 150ppi|
+|```map-turntrack.jpg```|images|Game Turn Track|replace with your own @ 150ppi|
+|```icon-map.png```|images|Map icon|gray - replace with 25px map thumb|
+|```icon-pieces.png```|images|Pieces icon|Red counter - replace with 25px counter thumb|
+|```chart-html.html```|root|(optional) HTML file in chart tab *HTML Sample*|update with content of your choice or remove|
+
+### Icons
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```icon-charts.png```|images|Charts icon|folder|
+|```icon-deadpile.png```|images|Deadpile icon|graveyard|
+|```icon-hide.png```|images|Hide icon|see no evil monkey|
+|```icon-notes.png```|images|Notes icon|notebook|
+|```icon-retire.png```|images|Retire icon|white flag|
+|```icon-turn.png```|images|Turn & Track icon|turn|
+
+### Counters & Symbols
+
+Files below relate to the counters, and are not essential (unless you are using the template counters).  
+Usually, you will create counters (game *pieces*) by adding multiple pieces in the Vassal Editor.
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```counter-black-75x75x5.png```|images|Black 5px bevelled counter|75x75px @ 150ppi|
+|```counter-blue-bng-75x75x5.png```|images|Union *Blue & Gray* style 5px bevelled counter|75x75px @ 150ppi|
+|```counter-red-75x75x5.png```|images|Red 5px bevelled counter|75x75px @ 150ppi|
+|```counter-red-75x75x5.png```|images|Red *big NATO* Infantry 5px bevelled counter|75x75px @ 150ppi|
+|```counter-white-72x72x5.png```|images|White 5px bevelled counter|72x72px @ 150ppi|
+|```sym-aa-hvy-overlay.png```|images|AA NATO symbol overlay|30x20px @ 150ppi|
+|```sym-inf-white-75x75x5.png```|images|White INF **X** overlay on bevel|75x75px @ 150ppi|
+
+The files ```counter-xxx``` and ```sym-xxx``` without extensions are Vassal piece templates, which are defined in the Vassal Designer.  
+Open the template in Editor to find out more.
+
+### Other Files
+
+|File|Folder|Description|Notes|
+|---|---|---|---|
+|```buildfile.xml```|root|vmod 'master' file|do not edit unless you know what you are doing|
+
+```Red D6 1-6.png``` are symbolic dice images.
+
+
+
 ## Release Notes
+
 v1.2
 updated to markdown, v379
 
@@ -213,7 +279,7 @@ v0.8
 added Blue & Gray (SPI) style piece
 
 v0.7/0.8
-added Ney v Wellington (SPI) style piece
+added Ney v Wellington (SPI *Big NATO*) style piece
 
 v0.6
 initial release (numbering from module version)
