@@ -7,8 +7,6 @@ This is a template file for a player help guide. This is intended to be edited t
 
 ![pic](./jzhex-n-counters-template-v12-379.png)
 
-
-
 ## Players Guide
 
 If you are new to *Vassal*, visit [vassalengine on the web](www.vassalengine.org) for help.  
@@ -27,7 +25,7 @@ Join as 'observer' to play solo and click Finish.
 The game will open with basic counters setup and the map on the screen.
 Vassal will ask if you want to open a log file.
 The Turn record may also open as a separate window.
-Read the rules and any scenario walkthrough (available at https://www.simpubs.org)
+Read the rules and any scenario walkthrough (available at [simpubs])
 
 ## Toolbar
 
@@ -112,7 +110,7 @@ For movement, just click and drag a counter. For more, right click and a menu po
 - Delete - if you have mistakenly cloned or added the counter, delete it
 - Notes - opens a small notes window
 - Eliminated - sends the unit to the *Eliminated* (graveyard) page
-- Steploss - this 'flips' a unit to it's reduced side (and reports the loss to the messages) by changing the strength value 
+- Steploss - this 'flips' a unit to it's reduced side (and reports the loss to the messages) by changing the strength value
 - Untried - this sets the unit strength to  U-6 (for ex) - not a fully functioning untried draw, but it works if you want it  
 
 **[Designer: IF YOU ADD MORE FEATURES, EXPLAIN THEM HERE]**
@@ -140,7 +138,7 @@ Other options relate to logs and open/close etc.
 ## TEMPLATE DESIGNERS NOTES
 
 **[Designer: REMOVE THIS SECTION IF YOU ARE SHARING YOUR MODULE]**  
-In the vassal mod there are a few items which you can use for building your vmod, and a small wrinkle with the *pieces* floating box. 
+In the vassal mod there are a few items which you can use for building your vmod, and a small wrinkle with the *pieces* floating box.
 
 ### GAME PIECE IMAGE DEFINITIONS
 
@@ -155,10 +153,12 @@ They are added together on a piece by combining the image (counter) with the pro
 Why? This makes combining background and symbol easy, without having both in the counter image.
 
 **counter** - sample blank 75x75 counters
+
 - counter-red
 - counter-olive
 
 **symbol** - some sample (transparent!) NATO unit templates
+
 - INF-black - an infantry symbol, with whte black text
 - MEC-black - a mech symbol, white text
 - AAH-white - a heavy AA, using a 30x20 AA PNG icon to overlay on the symbol box
@@ -254,11 +254,11 @@ Open the template in Editor to find out more.
 
 ```Red D6 1-6.png``` are symbolic dice images.
 
-# Copyleft
+## Copyleft
 
 [simpubs] is free, and makes no income from the shared content. Where content is available publicly on a legitimate site (eg www.wargamevault.com), we do not republish this. Please go and buy it and support the creators. However, there are people charging for DVD/scans of SPI and [simpubs] content. Please do not encourage them, especially if they are taking content from here and elsewhere and repackaging the work of others for personal profit.
 
-Any original [simpubs] content is published under Creative Commons CC BY-SA-NC 4.0 international terms https://creativecommons.org/licenses/by-nc-sa/4.0.   
+Any original [simpubs] content is published under Creative Commons CC BY-SA-NC 4.0 international terms https://creativecommons.org/licenses/by-nc-sa/4.0.
 
 See our [FAIR USE] page for more info.
 
@@ -278,7 +278,7 @@ v1.2
 updated to markdown, v379
 
 v1.1
-readme updated and prepared for 'lite' module 
+readme updated and prepared for 'lite' module
 
 v1.0
 release for general use (this release)
