@@ -7,15 +7,7 @@ This is a template file for a player help guide. This is intended to be edited t
 
 ![pic](./jzhex-n-counters-template-v12-379.png)
 
-|Release|Notes|
-|---|---|
-|Module|hex-n-counters-template-v12-379.vmod|
-|Game|Hex'n'Counters template|
-|Version|1.2 release|
-|Last Updated|27-MAR-2024|
-|Created Date|01-JAN-2019|
-|Author|John Edwards|
-|Notes|n/a|
+
 
 ## Players Guide
 
@@ -35,7 +27,7 @@ Join as 'observer' to play solo and click Finish.
 The game will open with basic counters setup and the map on the screen.
 Vassal will ask if you want to open a log file.
 The Turn record may also open as a separate window.
-Read the rules and the sample scenario walkthrough.
+Read the rules and any scenario walkthrough (available at https://www.simpubs.org)
 
 ## Toolbar
 
@@ -45,7 +37,7 @@ The 2 arrows are for network game connections
 ### FLAG (Sides)
 
 The white flag is to retire, and is also used to switch sides in games with sides active.  
-Sides are not enabled for counter control/visibility, but there are two sides, ```Side1``` and ```Side2```
+Sides are not enabled for counter control/visibility, but there are two default sides, ```Side1``` and ```Side2```
 
 ### TRACK
 
@@ -262,9 +254,17 @@ Open the template in Editor to find out more.
 
 ```Red D6 1-6.png``` are symbolic dice images.
 
-
-
 ## Release Notes
+
+|Release|Notes|
+|---|---|
+|Module|hex-n-counters-template-v12-379.vmod|
+|Game|Hex'n'Counters template|
+|Version|1.2 release|
+|Last Updated|27-MAR-2024|
+|Created Date|01-JAN-2019|
+|Author|John Edwards|
+|Notes|n/a|
 
 v1.2
 updated to markdown, v379
@@ -283,3 +283,5 @@ added Ney v Wellington (SPI *Big NATO*) style piece
 
 v0.6
 initial release (numbering from module version)
+
+Contact [jzedward](mailto:viqhzset@duck.com) or visit [simpubs](https://www.simpubs.org) with any comments or feedback
