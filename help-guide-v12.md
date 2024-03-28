@@ -254,6 +254,14 @@ Open the template in Editor to find out more.
 
 ```Red D6 1-6.png``` are symbolic dice images.
 
+# Copyleft
+
+[simpubs] is free, and makes no income from the shared content. Where content is available publicly on a legitimate site (eg www.wargamevault.com), we do not republish this. Please go and buy it and support the creators. However, there are people charging for DVD/scans of SPI and [simpubs] content. Please do not encourage them, especially if they are taking content from here and elsewhere and repackaging the work of others for personal profit.
+
+Any original [simpubs] content is published under Creative Commons CC BY-SA-NC 4.0 international terms https://creativecommons.org/licenses/by-nc-sa/4.0.   
+
+See our [FAIR USE] page for more info.
+
 ## Release Notes
 
 |Release|Notes|
@@ -284,4 +292,8 @@ added Ney v Wellington (SPI *Big NATO*) style piece
 v0.6
 initial release (numbering from module version)
 
-Contact [jzedward](mailto:viqhzset@duck.com) or visit [simpubs](https://www.simpubs.org) with any comments or feedback
+Contact [jzedward](mailto:viqhzset@duck.com) or visit [simpubs] with any comments or feedback
+
+[7zip]: https://www.7-zip.org/
+[simpubs]: https://www.simpubs.org
+[FAIR USE]: https://nextcloud.simpubs.org
