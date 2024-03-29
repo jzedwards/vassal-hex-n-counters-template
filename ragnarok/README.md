@@ -1,6 +1,6 @@
 # Ragnarok (v12)
 
-![ragnarok](ragnarok.png)
+![ragnarok](ragnarok-vassal.png)
 
 ## Players Guide
 
