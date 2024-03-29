@@ -2,6 +2,9 @@
 
 ![ragnarok](ragnarok-vassal.png)
 
+This repository is published on github at https://github.com/jzedwards/vassal-hex-n-counters-template
+Additional large binary files available on [simpubs](https://www.simpubs.org) at https://nextcloud.simpubs.org/s/cP7YT9La6FADMg9?path=%2F in the folder *ragnarok*
+
 ## Players Guide
 
 If you are new to *Vassal*, visit [vassalengine on the web](www.vassalengine.org) for help.  
