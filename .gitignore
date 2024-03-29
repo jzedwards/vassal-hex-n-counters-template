@@ -1,4 +1,5 @@
 # vassal modules
-# *.vmod
+*.ppt*
+*.ai
 # garbage
 Thumbs.db

@@ -1,0 +1,154 @@
+Ragnarok (v12)
+
+[ragnarok]
+
+Players Guide
+
+If you are new to Vassal, visit vassalengine on the web for help.
+Vassal is intended to be like playing a real game, so it does not have a
+computer opponent, you either play solo or against a real opponent. You
+can play by switching sides ‘live’ (hotseat) or sending files
+
+Overview
+
+Ragnarok is SPI’s simulation of the battle at the end of the world,
+released in 1981 with Ares magazine #8
+
+Startup
+
+Select ‘play mode’, for a first game select ‘Start a new game offline’,
+and Next> Select the ‘At Start’ setup, Next> Join as ‘observer’ to play
+solo and click Finish. There are 2 sides available, Aesir and Jotun.
+
+The game will open with the map on the screen. Click the red counter
+icon to open the Deployment window. Jotun counters deploy onto the
+Rainbow Bridge on the map.
+Vassal will ask if you want to open a log file. Read the rules
+(available at https://www.simpubs.org)
+
+Toolbar
+
+The first 2 buttons are for playing a logfile (back and forward) and are
+greyed out. Visit the vassal site for more info on logs and saves The 2
+arrows are for network game connections
+
+FLAG (Sides)
+
+The white flag is to retire, and is also used to switch sides in games
+with sides active.
+Sides are not enabled for counter control/visibility, but there are two
+sides, Jotun and Aesir
+
+COUNTER (Deployment)
+
+Open the counter window by clicking the Fire icon. This has a set of
+pieces. Drag pieces to the map according to the deployment rules.
+Note: you can clone if you delete mistakenly, but the game has a defined
+counter mix.
+
+FOLDER
+
+The folder icon opens the ‘Charts’ window, for Sequence of Play (SOP),
+Combat Results Table (CRT), Terrain Effects Chart (TEC), Unit
+Identification (UID) and other charts.
+
+DEADPILE
+
+Eliminated units will go here.
+
+DICE
+
+This icon ‘rolls’ a 6 sided dice and reports the result. 2d6 are also
+available.
+
+NOTE
+
+Click this to make and see notes
+
+TURN
+
+A game turn counter, simple numeric [not required for Ragnarok]
+
+CAMERA
+
+Take a screen shot
+
+MAP
+
+The map icon opens (and closes) an overview map. The zoom buttons are
+self explanatory. if you need help here, give up now and play checkers.
+The monkey icon is hiding ;-) Use this to show/hide units on the map.
+
+MOVEMENT
+
+Counters are marked as moved on the map; this icon resets all to remove
+the MOVED markings. Note: the endurance counters don’t really need this,
+I’ll remove it some day…
+
+Playing the Game
+
+Vassal mimics a real game with cardboard pieces. This means that you can
+make illegal moves, and do stupid, just like I do all the time.
+The game has no computer player/AI, it is what you make it. Just pick up
+the rules and start a cardboard battle. If you have played wargames it
+will be very familiar to you
+
+Pieces
+
+Click the counter icon; it will open a window with a tab of the (very
+few) counters and markers.
+For movement, just click and drag a counter. For more, right click and a
+menu pops up
+
+-   Flip - turn the counter over, usually to a reduced side
+-   Rotate CW/Rotate CCW - this turns the counter. In this template
+    facing does not mean anything, counters can rotate in 6 directions.
+-   Mark Moved - takes the MOVED tag on and off the counter
+-   Movement Trail - this puts a line of movement on the map, can be
+    useful
+-   Show ZOC - shows the zone of control (6 hexes around)
+-   Clone - copies a marker or counter
+-   Delete - if you have mistakenly cloned or added the counter, delete
+    it
+-   Notes - opens a small notes window
+-   Eliminated - sends the unit to the Deadpile (graveyard) page
+
+Stacks
+
+Hovering over will show you the stack contents.
+Double click to expand or contract the stack Click on an individual
+counter to select it and move it. You can use left and right arrow keys
+to move up and down in the order
+
+Scenarios
+
+At Start has the endurance track and Heimdall deployed. There is a ‘Free
+Setup’ save game, which is, of course, not a save game at all. To open
+the pieces window, use CTRL-SHIFT-H.
+
+Menu
+
+-   File: Menu File Save Game and Save Game As lets you save the game.
+    Simples.
+    Other options relate to logs and open/close etc.
+
+-   Tools: Refresh counter images (if changed) and some log management.
+
+-   Help: This file and the readme are here, as well as links to Vassal
+    guides and splash pages.
+
+Release Notes
+
+v1.2 first release
+
+  Release        Notes
+  -------------- ---------------------
+  Module         ragnarok-v12.vmod
+  Game           Ragnarok (SPI) 1981
+  Version        1.2 release
+  Last Updated   29-MAR-2024
+  Created Date   01-JAN-2019
+  Author         John Edwards
+  Notes          n/a
+
+Contact jzedward or visit simpubs with any comments or feedback
